@@ -138,7 +138,7 @@
 1652279251 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/fecha.c
 	"fecha.h"
 
-1652276943 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/main.c
+1652280365 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/main.c
 	<stdio.h>
 	<stdlib.h>
 	"my_lib.h"
@@ -206,7 +206,7 @@
 
 1652277487 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/empresa.h
 
-1652280179 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/micro.c
+1652280726 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/micro.c
 	<stdio_ext.h>
 	<stdio.h>
 	<stdlib.h>
@@ -220,7 +220,7 @@
 	"empresa.h"
 	"tipo.h"
 
-1652276812 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/tipo.c
+1652280811 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/tipo.c
 	"tipo.h"
 	<stdio_ext.h>
 	<stdio.h>

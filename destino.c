@@ -9,7 +9,7 @@ int listarDestinos(eDestino destinos[], int tam)
     int todoOk = 0;
     if(destinos != NULL && tam > 0)
     {
-        printf(" Id  \t  Servicio \t Precio \n");
+        printf(" Id  \t  Destino \t Precio \n");
         printf("------------------------------------------------\n");
         for(int i=0; i<tam; i++)
         {

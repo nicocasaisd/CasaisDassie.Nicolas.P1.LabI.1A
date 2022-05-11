@@ -9,7 +9,7 @@ int listarTipos(eTipo tipos[], int tam)
     int todoOk = 0;
     if(tipos != NULL && tam > 0)
     {
-        printf(" Id  \t  Color\n");
+        printf(" Id  \t  Tipo\n");
         printf("------------------------------------------------\n");
         for(int i=0; i<tam; i++)
         {

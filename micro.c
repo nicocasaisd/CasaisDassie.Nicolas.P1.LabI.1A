@@ -72,7 +72,7 @@ int hardcodearEntradas(eMicro vec[], int tam, int cant, int* nextId)
     int todoOk = 0;
     eMicro impostores[] =
     {
-        {0, 1000, 5004, 23, 0},
+        {0, 1000, 5003, 23, 0},
         {0, 1001, 5003, 45, 0},
         {0, 1001, 5002, 10, 0},
         {0, 1004, 5003, 25, 0},
@@ -80,7 +80,7 @@ int hardcodearEntradas(eMicro vec[], int tam, int cant, int* nextId)
         {0, 1000, 5000, 45, 0},
         {0, 1000, 5000, 34, 0},
         {0, 1003, 5002, 36, 0},
-        {0, 1001, 5004, 25, 0},
+        {0, 1001, 5001, 25, 0},
         {0, 1002, 5001, 49, 0},
     };
 
