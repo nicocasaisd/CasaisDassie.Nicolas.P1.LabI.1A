@@ -1,0 +1,245 @@
+# depslib dependency file v1.0
+1651617825 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/Parcial1_nicocasaisd/my_lib.c
+	"my_lib.h"
+	<stdio_ext.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1651617822 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/Parcial1_nicocasaisd/my_lib.h
+
+1652219775 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/Parcial1_nicocasaisd/main.c
+	<stdio.h>
+	<stdlib.h>
+	"my_lib.h"
+	"struct.h"
+	"fecha.h"
+
+1651495455 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/Parcial1_nicocasaisd/fecha.c
+	"fecha.h"
+
+1651495403 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/Parcial1_nicocasaisd/fecha.h
+
+1652219730 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/Parcial1_nicocasaisd/struct.c
+	<stdio_ext.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"my_lib.h"
+	"struct.h"
+	"fecha.h"
+
+1652219804 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/Parcial1_nicocasaisd/struct.h
+	"fecha.h"
+
+1651495455 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Modelos/PPLab2021parte1/fecha.c
+	"fecha.h"
+
+1651495403 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Modelos/PPLab2021parte1/fecha.h
+
+1651617825 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Modelos/PPLab2021parte1/my_lib.c
+	"my_lib.h"
+	<stdio_ext.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1651617822 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Modelos/PPLab2021parte1/my_lib.h
+
+1652229216 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Modelos/PPLab2021parte1/marca.c
+	"marca.h"
+	<stdio_ext.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1652224367 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Modelos/PPLab2021parte1/servicio.c
+	<stdio_ext.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"servicio.h"
+
+1652229041 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Modelos/PPLab2021parte1/trabajo.c
+	<stdio_ext.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"trabajo.h"
+	"servicio.h"
+	"auto.h"
+
+1652229267 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Modelos/PPLab2021parte1/auto.c
+	<stdio_ext.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"my_lib.h"
+	"auto.h"
+	"fecha.h"
+
+1652229307 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Modelos/PPLab2021parte1/auto.h
+	"fecha.h"
+
+1652229332 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Modelos/PPLab2021parte1/main.c
+	<stdio.h>
+	<stdlib.h>
+	"my_lib.h"
+	"auto.h"
+	"fecha.h"
+	"marca.h"
+	"color.h"
+	"servicio.h"
+	"trabajo.h"
+
+1652223670 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Modelos/PPLab2021parte1/marca.h
+
+1652224174 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Modelos/PPLab2021parte1/color.h
+
+1652224377 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Modelos/PPLab2021parte1/servicio.h
+
+1652228982 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Modelos/PPLab2021parte1/trabajo.h
+	"fecha.h"
+	"auto.h"
+	"servicio.h"
+
+1652224184 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Modelos/PPLab2021parte1/color.c
+	"color.h"
+	<stdio_ext.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1652229267 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/auto.c
+	<stdio_ext.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"my_lib.h"
+	"auto.h"
+	"fecha.h"
+
+1651617822 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/my_lib.h
+
+1652229307 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/auto.h
+	"fecha.h"
+
+1652279263 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/fecha.h
+
+1652224184 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/color.c
+	"color.h"
+	<stdio_ext.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1652224174 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/color.h
+
+1652279251 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/fecha.c
+	"fecha.h"
+
+1652276943 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/main.c
+	<stdio.h>
+	<stdlib.h>
+	"my_lib.h"
+	"micro.h"
+	"fecha.h"
+	"empresa.h"
+	"tipo.h"
+	"destino.h"
+	"viaje.h"
+
+1652223670 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/marca.h
+
+1652224377 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/servicio.h
+
+1652228982 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/trabajo.h
+	"fecha.h"
+	"auto.h"
+	"servicio.h"
+
+1652229216 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/marca.c
+	"marca.h"
+	<stdio_ext.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1651617825 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/my_lib.c
+	"my_lib.h"
+	<stdio_ext.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1652224367 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/servicio.c
+	<stdio_ext.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"servicio.h"
+
+1652229041 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/trabajo.c
+	<stdio_ext.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"trabajo.h"
+	"servicio.h"
+	"auto.h"
+
+1652277881 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/destino.c
+	<stdio_ext.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"destino.h"
+
+1652277908 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/destino.h
+
+1652277029 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/empresa.c
+	"empresa.h"
+	<stdio_ext.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1652277487 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/empresa.h
+
+1652280179 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/micro.c
+	<stdio_ext.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"my_lib.h"
+	"micro.h"
+	"fecha.h"
+
+1652277706 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/micro.h
+	"fecha.h"
+	"empresa.h"
+	"tipo.h"
+
+1652276812 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/tipo.c
+	"tipo.h"
+	<stdio_ext.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1652277473 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/tipo.h
+
+1652276408 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/viaje.h
+	"fecha.h"
+	"micro.h"
+	"destino.h"
+
+1652278324 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/viaje.c
+	<stdio_ext.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"viaje.h"
+	"destino.h"
+	"micro.h"
+
