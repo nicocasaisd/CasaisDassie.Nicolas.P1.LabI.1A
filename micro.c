@@ -23,11 +23,19 @@ int menu()
     printf("9- Listar Viajes \n");
     printf("10- Salir \n\n");
     printf("Ingrese opcion: ");
-    scanf("%d", &opcion);
+    if(scanf("%d", &opcion) == 0)
+    {
+        __fpurge(stdin);
+        printf("Error. Valor no numerico.\n");
+    }
     while(opcion < 1 || opcion > 10)
     {
         printf("Opcion invalida. Reingrese opcion: ");
-        scanf("%d", &opcion);
+        if(scanf("%d", &opcion) == 0)
+        {
+            __fpurge(stdin);
+            printf("Error. Valor no numerico.\n");
+        }
     }
     return opcion;
 }
@@ -40,11 +48,19 @@ int menuModificar()
     printf("2- Capacidad\n");
     printf("3- Salir\n");
     printf("Ingrese opcion: ");
-    scanf("%d", &opcion);
+    if(scanf("%d", &opcion) == 0)
+    {
+        __fpurge(stdin);
+        printf("Error. Valor no numerico.\n");
+    }
     while(opcion < 1 || opcion > 3)
     {
         printf("Opcion invalida. Reingrese opcion: ");
-        scanf("%d", &opcion);
+        if(scanf("%d", &opcion) == 0)
+        {
+            __fpurge(stdin);
+            printf("Error. Valor no numerico.\n");
+        }
     }
     return opcion;
 }
@@ -57,11 +73,19 @@ int menuInformes()
     //printf("3- Informe 2\n");
     printf("4- Salir\n");
     printf("Ingrese opcion: ");
-    scanf("%d", &opcion);
+    if(scanf("%d", &opcion) == 0)
+    {
+        __fpurge(stdin);
+        printf("Error. Valor no numerico.\n");
+    }
     while(opcion < 1 || opcion > 4)
     {
         printf("Opcion invalida. Reingrese opcion: ");
-        scanf("%d", &opcion);
+        if(scanf("%d", &opcion) == 0)
+        {
+            __fpurge(stdin);
+            printf("Error. Valor no numerico.\n");
+        }
     }
     return opcion;
 }
@@ -151,29 +175,29 @@ int pedirAlta(eMicro vec[], int tam, eEmpresa empresas[], int tamE, eTipo tipos[
             // aca caigo cuando haya lugar
             listarEmpresas(empresas, tamE);
             printf("\nIngrese id de empresa: ");
-            scanf("%d", &nuevaStruct.idEmpresa);
+            scanf_int("%d", &nuevaStruct.idEmpresa);
             while(!validarEmpresa(empresas, tamE, nuevaStruct.idEmpresa))
             {
                 printf("\nId invalida. Reingrese id de empresa: ");
-                scanf("%d", &nuevaStruct.idEmpresa);
+                scanf_int("%d", &nuevaStruct.idEmpresa);
             }
 
             listarTipos(tipos, tamT);
             printf("\nIngrese id de tipo: ");
-            scanf("%d", &nuevaStruct.idTipo);
+            scanf_int("%d", &nuevaStruct.idTipo);
             while(!validarTipo(tipos, tamT, nuevaStruct.idTipo))
             {
                 printf("\nId invalida. Reingrese id de tipo: ");
-                scanf("%d", &nuevaStruct.idTipo);
+                scanf_int("%d", &nuevaStruct.idTipo);
             }
 
             printf("Ingrese capacidad del micro: ");
             __fpurge(stdin);
-            scanf("%d", &nuevaStruct.capacidad);
+            scanf_int("%d", &nuevaStruct.capacidad);
             while(!validarCapacidad(nuevaStruct.capacidad))
             {
                 printf("\nCapacidad invalida. Reingrese capacidad: ");
-                scanf("%d", &nuevaStruct.capacidad);
+                scanf_int("%d", &nuevaStruct.capacidad);
             }
 
             nuevaStruct.isEmpty = 0;
@@ -268,7 +292,7 @@ int pedirBaja(eMicro vec[], int tam, eEmpresa empresas[], int tamE, eTipo tipos[
     {
         mostrarLista(vec, tam, empresas, tamE, tipos, tamT);
         printf("Ingrese id: ");
-        scanf("%d", &id);
+        scanf_int("%d", &id);
         if( buscarPorId(vec, tam, id, &indice))
         {
             if(indice == -1)
@@ -318,7 +342,7 @@ int pedirModificacion(eMicro vec[], int tam, eEmpresa empresas[], int tamE, eTip
     {
         mostrarLista(vec, tam, empresas, tamE, tipos, tamT);
         printf("Ingrese id: ");
-        scanf("%d", &id);
+        scanf_int("%d", &id);
         if( buscarPorId(vec, tam, id, &indice))
         {
             if(indice == -1)
@@ -338,21 +362,21 @@ int pedirModificacion(eMicro vec[], int tam, eEmpresa empresas[], int tamE, eTip
                     case 1:
                         listarTipos(tipos, tamT);
                         printf("Ingrese nuevo tipo: ");
-                        scanf("%d", &vec[indice].idTipo);
+                        scanf_int("%d", &vec[indice].idTipo);
                         while(!validarTipo(tipos, tamT, vec[indice].idTipo))
                             {
-                                printf("\nId invalida. Reingrese id de tipo: ");
-                                scanf("%d", &vec[indice].idTipo);
+                                printf("Id invalida. Reingrese id de tipo: ");
+                                scanf_int("%d", &vec[indice].idTipo);
                             }
                         printf("Se ha modificado el tipo\n");
                         break;
                     case 2:
                         printf("Ingrese nueva capacidad: ");
-                        scanf("%d", &vec[indice].capacidad);
+                        scanf_int("%d", &vec[indice].capacidad);
                         while(!validarCapacidad(vec[indice].capacidad))
                         {
-                            printf("\nCapacidad invalida. Reingrese capacidad: ");
-                            scanf("%d", &vec[indice].capacidad);
+                            printf("Capacidad invalida. Reingrese capacidad: ");
+                            scanf_int("%d", &vec[indice].capacidad);
                         }
                         printf("Se ha modificado la capacidad\n");
                         break;

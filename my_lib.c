@@ -59,6 +59,21 @@ int utn_gets(char vec[], int tam)
     return retorno;
 }
 
+int scanf_int(char masc[], int* pInt)
+{
+    int todoOk = 0;
+    int scanf_return;
+    scanf_return = scanf(masc, pInt);
+    while(scanf_return == 0)
+    {
+        __fpurge(stdin);
+        printf("Error.Ingrese un valor numerico: ");
+        scanf_return = scanf(masc, pInt);
+    }
+
+    return todoOk;
+}
+
 void pausar()
 {
     char auxPausa;

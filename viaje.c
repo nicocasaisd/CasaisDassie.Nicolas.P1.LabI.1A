@@ -5,6 +5,7 @@
 #include "viaje.h"
 #include "destino.h"
 #include "micro.h"
+#include "my_lib.h"
 
 int pedirAltaViaje(eViaje viajes[], int tamV, eMicro vec[], int tam, eDestino destinos[], int tamD, eEmpresa empresas[], int tamE, eTipo tipos[], int tamT, int* nextId)
 {
@@ -27,28 +28,36 @@ int pedirAltaViaje(eViaje viajes[], int tamV, eMicro vec[], int tam, eDestino de
 
             mostrarLista(vec, tam, empresas, tamE, tipos, tamT);
             printf("Ingrese id del micro: ");
-            scanf("%d", &nuevaStruct.idMicro);
+            scanf_int("%d", &nuevaStruct.idMicro);
             while(!validarMicro(vec, tam, nuevaStruct.idMicro))
             {
                 printf("\nId invalida. Reingrese id de empresa: ");
-                scanf("%d", &nuevaStruct.idMicro);
+                scanf_int("%d", &nuevaStruct.idMicro);
             }
 
             listarDestinos(destinos, tamD);
             printf("\nIngrese id de destino: ");
-            scanf("%d", &nuevaStruct.idDestino);
+            scanf_int("%d", &nuevaStruct.idDestino);
             while(!validarDestino(destinos, tam, nuevaStruct.idDestino))
             {
                 printf("\nId invalida. Reingrese id de destino: ");
-                scanf("%d", &nuevaStruct.idDestino);
+                scanf_int("%d", &nuevaStruct.idDestino);
             }
 
             printf("\nIngrese fecha (dd/mm/aaaa): ");
-            scanf("%d/%d/%d", &fecha.dia, &fecha.mes, &fecha.anio);
+            if(scanf("%d/%d/%d", &fecha.dia, &fecha.mes, &fecha.anio) == 0)
+            {
+                __fpurge(stdin);
+                printf("Error. Valor no numerico\n");
+            }
             while(!validarFecha(fecha))
             {
-            printf("\nFecha invalida. Reingrese fecha (dd/mm/aaaa): ");
-            scanf("%d/%d/%d", &fecha.dia, &fecha.mes, &fecha.anio);
+                printf("Fecha invalida. Reingrese fecha (dd/mm/aaaa): ");
+                if(scanf("%d/%d/%d", &fecha.dia, &fecha.mes, &fecha.anio) == 0)
+                {
+                    __fpurge(stdin);
+                    printf("Error. Valor no numerico\n");
+                }
             }
             nuevaStruct.fecha = fecha;
 

@@ -119,7 +119,7 @@
 	"auto.h"
 	"fecha.h"
 
-1651617822 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/my_lib.h
+1653257545 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/my_lib.h
 
 1652229307 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/auto.h
 	"fecha.h"
@@ -165,7 +165,7 @@
 	<stdlib.h>
 	<string.h>
 
-1651617825 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/my_lib.c
+1653258249 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/my_lib.c
 	"my_lib.h"
 	<stdio_ext.h>
 	<stdio.h>
@@ -188,7 +188,7 @@
 	"servicio.h"
 	"auto.h"
 
-1652277881 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/destino.c
+1652280837 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/destino.c
 	<stdio_ext.h>
 	<stdio.h>
 	<stdlib.h>
@@ -206,7 +206,7 @@
 
 1652277487 /home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/empresa.h
 
-1652280726 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/micro.c
+1653258720 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/micro.c
 	<stdio_ext.h>
 	<stdio.h>
 	<stdlib.h>
@@ -234,7 +234,7 @@
 	"micro.h"
 	"destino.h"
 
-1652278324 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/viaje.c
+1653258689 source:/home/nicocasaisd/Documentos/UTN/Programacion1/Parciales/Parcial 1/CasaisDassie.Nicolas.P1.LabI.1A/viaje.c
 	<stdio_ext.h>
 	<stdio.h>
 	<stdlib.h>
@@ -242,4 +242,5 @@
 	"viaje.h"
 	"destino.h"
 	"micro.h"
+	"my_lib.h"
 
